@@ -10,18 +10,21 @@
 \begin{document}
 \maketitle
 \section*{Задача 1}
-\[y=2\ln{x},y=-\ln{x},x=e\]
+%\[y=2\ln{x},y=-\ln{x},x=e\]
+\includegraphics[width= 0.8\textwidth]{hw_int_1.eps}\\
 \begin{equation*}
 \begin{aligned}
-S&=\int\limits_0^e\!\! \int\limits_{0}^{2\ln{x}}\,dydx+\int\limits_{1}^{e}\!\! \!\!\int\limits_{-\ln{x}}^{0}\,dydx\\
+S&=\int\limits_1^e\!\! \int\limits_{0}^{2\ln{x}}\,dydx+\int\limits_{1}^{e}\!\! \!\!\int\limits_{-\ln{x}}^{0}\,dydx\\
 &=3\int_{1}^{e} \ln{x}\,dx\quad=3[x\ln{x}-x]_{1}^{e}=3(e\ln{e}-e-\ln{1}+1)=\\
 &=3
 \end{aligned}
 \end{equation*}
 Ответ:\\
 Площадь фигуры $S=3$
+\newpage
 \section*{Задача 2}
 \[y=(x/2)^2,y=x-1,x=0;\text{oсь  } Oy\]
+\includegraphics[width= 0.8\textwidth]{hw_int_2.eps}\\
 Анализ:\\
 В той части, где $y$ больше нуля, объем вращающегося тела определяется интегрированием. В той части, где $y$ меньше нуля, объем вращающегося тела представляет собой конус, то:
 \[V=V_{top}+V_{below}\]
@@ -29,25 +32,25 @@ S&=\int\limits_0^e\!\! \int\limits_{0}^{2\ln{x}}\,dydx+\int\limits_{1}^{e}\!\! \
 \subsection*{a)$V_{top}$}
 \begin{equation*}
 \begin{aligned}
-V_{top}&=2\pi \int_{0}^{2} x(\frac{x^2}{4}-x+1)\,dx\\
-&=2\pi\int_{0}^{2} (\frac{x^3}{4}-x^2+x)\,dx\\
-&=2\pi[\frac{1}{16}x^4-\frac{1}{3}x^3+\frac{1}{2}x^2]_{0}^{2}\\
-&=\frac{2}{3}\pi
+V_{top}&=\pi \int_{0}^{1}( (y-1)^2-4y)\,dy\\
+&=\pi\int_{0}^{1}( y^2-2y+1(\,dy\\
+&=\pi[\frac{1}{3}y^3-y^2+y]_{0}^{1}\\
+&=\pi
 \end{aligned}
 \end{equation*}
 \subsection*{b)$V_{below}$}
 \begin{equation*}
 \begin{aligned}
 V_{below}&=\frac{1}{3}Sh\\
-&=\frac{1}{3}\cdot \pi \cdot 2^2 \cdot 1\\
-&=\frac{4}{3}\pi
+&=\frac{1}{3}\cdot \pi \cdot 1^2 \cdot 1\\
+&=\frac{1}{3}\pi
 \end{aligned}
 \end{equation*}
 \subsection*{c)$V_{total}$}
 \begin{equation*}
 \begin{aligned}
 V_{total}&=V_{top}+V_{below}\\
-&=\frac{2}{3}\pi+\frac{4}{3}\pi=2\pi\\
+&=\pi+\frac{1}{3}\pi=\frac{4}{3}\pi\\
 \end{aligned}
 \end{equation*}
 \newpage
@@ -76,6 +79,7 @@ S_{total}&=2S_{right}=\pi-\frac{2}{3}
 \end{equation*}
 \section*{Задача 4}
 \[y=\sqrt{e^{-2x}+1}/2,x_1=0,x_2=\ln{4},\text{ось Ox}\]
+\includegraphics[width= 0.8\textwidth]{hw_int_4.eps}\\
 Решение:\\
 \begin{equation*}
 \begin{aligned}
@@ -92,6 +96,7 @@ S_{ox}&=2\pi\int_{0}^{\ln{4}} y(x)\sqrt{1+(y'(x))^2}\,dx\\
 \newpage
 \section*{Задача 5}
 \[y=\cosh{x},l(x)=\text{sech}^2{x},x_1=-\ln{2},x_2=\ln{2}\]
+\includegraphics[width= 1\textwidth]{hw_int_5.eps}\\
 Решение:\\
 \begin{equation*}
 \begin{aligned}
